@@ -1,10 +1,9 @@
-let age = 20;
-let howOld = function (inThisMany) {
-  console.log(`In ${inThisMany} years, you will be ${inThisMany + age}.`);
-}
+let readlineSync = require('readline-sync');
+let age = Number(readlineSync.question("How old are you?\n"));
+console.log(`You are ${age} years old.`)
+console.log(`In ${10} years, you will be ${age + 10} years old.`);
+console.log(`In ${20} years, you will be ${age + 20} years old.`);
+console.log(`In ${30} years, you will be ${age + 30} years old.`);
+console.log(`In ${40} years, you will be ${age + 40} years old.`);
 
-console.log(`You are ${age} years old.`);
-howOld(10);
-howOld(20);
-howOld(30);
-howOld(40);
+
