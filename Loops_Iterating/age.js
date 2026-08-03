@@ -1,12 +1,13 @@
 let readlineSync = require('readline-sync');
 let age = Number(readlineSync.question("How old are you?\n"));
-age = parseInt(age);
+// redundant since age is already forced into number data age = parseInt(age);
 console.log(`You are ${age} years old.`);
 
-for (let years = 0; years <= 40; years += 10) {
-  console.log(`You are ${age}. In ${years} years, you will be ${age + years} years old.`);
+for (let years = 10; years <= 40; years += 10) {
+  console.log(`In ${years} years, you will be ${age + years} years old.`);
 }
   
+
 /* 
   console.log(`You are `)
 }
