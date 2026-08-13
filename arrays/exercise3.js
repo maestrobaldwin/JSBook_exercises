@@ -22,7 +22,7 @@ for (let i = 0; i < myArray.length; i += 1) {
     }
   }
 }
-*/pus
+*/
 myArray.forEach(nestedArray => {
   nestedArray.forEach(value => {
     if (value % 2 === 0) {
