@@ -1,4 +1,8 @@
 let names = ['Taylor', 'Tim', 'Owen', 'Olivia', 'Melissa', 'Tina', 'Tia', 'Tonya', 'Courtney', 'Kalin'];
+names[0] = "Frederick";
+console.log(names);
+names[0] = 'Taylor';
+console.log(names);
 let tNames = [];
 let oNames = [];
 names.forEach(name => {
