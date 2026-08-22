@@ -1,9 +1,9 @@
 let array = [3, 5, 7];
 
-function sumOfNumbers (array) {
+function sumOfSquares(array) {
   return array.reduce((prev, curr) => {
     return prev + (curr * curr);},
     0);
 }
 
-console.log(sumOfNumbers(array));
+console.log(sumOfSquares(array));
